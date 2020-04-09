@@ -1,0 +1,78 @@
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(160, 204, 197);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+h3{
+    color: rgb(81, 175, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   padding:10px;
+}
+
+body{
+    background-color: lightgrey;
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.pic{
+    border: 10px solid rgb;
+}
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+
+
+
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(81, 175, 160)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
